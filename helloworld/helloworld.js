@@ -6,7 +6,7 @@ var printer = {
     color:"black",
     size:"small",
     price:29.99
-}
+} 
 //accessing printer color = printer.color
 
 //define the port the app will be accessed from 
