@@ -4,19 +4,19 @@
     "description": " a travel website about miami",
     "main": "miami.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-      "travel",
-      "fun",
-      "miami",
-      "beaches",
-      "heat"
+        "travel",
+        "fun",
+        "miami",
+        "beaches",
+        "heat"
     ],
     "author": "William Jattin",
     "license": "MIT",
     "dependencies": {
-      "express": "^4.21.0",
-      "express-handlebars": "^8.0.1"
+        "express": "^4.21.0",
+        "express-handlebars": "^8.0.1"
     }
-  }
+}

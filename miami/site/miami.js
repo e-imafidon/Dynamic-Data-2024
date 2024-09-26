@@ -16,15 +16,32 @@ app.set('view engine','handlebars')
 const PORT = process.env.port || 3000
 //process routes before error
 app.get('/',(request,response)=>{
-    response.render('home')
+    response.render('landing',{
+        title:"This is Miami!!",
+        abstract:"Miami is a fun place.",
+        image:"miamisky.jpg"
+    })
 })
 app.get('/about',(request,response)=>{
-    response.render('about')
+    response.render('page',{
+        title:"About Miami",
+        abstract:"From the Miami Marlins to the Miami Heat, there's a lot to see. "
+    })
 })
+
+app.get('/nightlife',(request,response)=>{
+    response.render('page',{
+        title:"Miami at Night",
+        abstract:"Stay away from South Beach!!"
+    })
+})
+
+/*These are page templates
 app.get('/nightlife',(request,response)=>{
     response.type('text/plain')
-    response.send('Miami At Night')
+    response.send('Stay away from South Beach!! ')
 })
+*/
 app.get('/beaches',(request,response)=>{
     response.type('text/plain')
     response.send('Miami Beach and more!')
