@@ -1,0 +1,37 @@
+{
+    "title":"Welcome To Miami",
+    "abstract":"This is the abstract",
+    "image":"/images/miamisky.jpg",
+    "services":[
+       {
+         "title":"Transportation",
+         "intro":"You can move around Miami with these services",
+         "list":[
+            "Uber",
+            "Bus",
+            "Metro Mover"
+         ],
+         "image":"/images/homepage/transportation.jpg"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"You can can see more of Miami with these tours",
+            "list":[
+               "Tour 1",
+               "Tour 2",
+               "Tour 3"
+            ],
+            "image":"/images/homepage/tours.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Beach day",
+            "description":"package description goes here. i.e spend the day at the W in miami beach",
+            "image":"/images/homepage/beachday.jpg",
+            "price":"1500",
+            "duration":"1 Day"
+        },
+        
+    ]
+}

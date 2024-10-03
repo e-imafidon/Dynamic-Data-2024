@@ -14,9 +14,13 @@ app.engine('handlebars',expressHandlebars.engine({
 app.set('view engine','handlebars')
 
 const PORT = process.env.port || 3000
+//Import app-wide data
+const gallery = require("./data/gallery.json")
 //process routes before error
 app.get('/',(request,response)=>{
+    console.log(gallery)
     response.render('landing',{
+        gallery,
         title:"This is Miami!!",
         abstract:"Miami is a fun place.",
         image:"miamisky.jpg"
