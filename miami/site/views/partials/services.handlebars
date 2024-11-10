@@ -1,0 +1,36 @@
+<div class="row">
+
+  <!-- Heading for the Services Section -->
+ <h2 class="gallery-heading text-center">Services</h2>
+
+<div class="accordion" id="servicesAccordion">
+    {{#each data.services}}
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button {{#if @first}} {{else}} collapsed  {{/if}}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{@index}}" aria-expanded="{{#if @first}}true{{else}}false{{/if}} " aria-controls="collapse_{{@index}}">
+       {{this.title}}
+      </button>
+    </h2>
+    <div id="collapse_{{@index}}" class="accordion-collapse {{#if @first}}show{{else}}collapse{{/if}} " data-bs-parent="#servicesAccordion">
+      <div class="accordion-body">
+        <div class="row">
+          <div class="col-8"> 
+        <p>{{this.intro}}</p>
+        <ul>
+          {{#each this.list}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        </div>
+          <div class="col-4">
+        {{#if this.image }}
+        <img class="img-fluid" src="{{this.image}}" alt="">
+        {{/if}}
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>
+</div>

@@ -1,51 +1,48 @@
 {
     "images": [
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/historical-1.jpg",
           "title":"Image title 1"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/historical-2.jpg",
           "title":"Image title 2"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/historical-6.jpg",
           "title":"Image title 3"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/historical-4.jpg",
           "title":"Image title 4"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/historical-5.jpg",
           "title":"Image title 5"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/home-2.jpg",
           "title":"Image title 6"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/home-5.jpg",
           "title":"Image title 7"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/outdoor-5.jpg",
           "title":"Image title 8"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/outdoor-6.jpg",
           "title":"Image title 9"},
 
-        { "url":"/images/gallery/miamisky.jpg",
-          "title":"Image title 10"},
-
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/culinary-2.jpg",
           "title":"Image title 11"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/culinary-3.jpg",
           "title":"Image title 12"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/culinary-4.jpg",
           "title":"Image title 13"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/culinary-5.jpg",
           "title":"Image title 14"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/nightlife-5.jpg",
           "title":"Image title 15"},
 
-        { "url":"/images/gallery/miamisky.jpg",
+        { "url":"/images/gallery/nightlife-6.jpg",
           "title":"Image title 16"}
     ]
 }

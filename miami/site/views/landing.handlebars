@@ -1,1 +1,9 @@
 {{>heading}}
+{{!-- Add the services partial --}}
+{{#if data.services}}
+    {{>services}}
+{{/if}}
+{{!-- Add the packages partial --}}
+{{#if data.packages}}
+    {{>packages}}
+{{/if}}

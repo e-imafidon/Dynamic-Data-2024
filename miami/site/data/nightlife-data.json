@@ -1,0 +1,90 @@
+{
+    "title": "Paris Nightlife Experience",
+    "abstract": "Paris comes alive after dark with a vibrant nightlife scene that offers something for everyone. Whether you're looking to dance the night away at a world-famous nightclub, enjoy live jazz at a cozy bar, or sip cocktails with a view of the Eiffel Tower, Paris’ nightlife is as iconic as the city itself. From the trendy Marais to the historic Latin Quarter, discover the best places to enjoy Paris after sunset.",
+    "services": [
+        {
+            "title": "Nightclubs & Dance Venues",
+            "intro": "Experience the vibrant dance scene at Paris’s top nightclubs, where you can enjoy electronic music, hip hop, and everything in between.",
+            "list": [
+                "Le Rex Club",
+                "L'Arc Paris",
+                "Concrete"
+            ],
+            "image": "/images/nightlife-1.jpg"
+        },
+        {
+            "title": "Bars & Lounges",
+            "intro": "Relax with cocktails and watch the night unfold at one of Paris’s stylish bars and lounges.",
+            "list": [
+                "Le Bar Hemingway",
+                "Experimental Cocktail Club",
+                "Café de la Paix"
+            ],
+            "image": "/images/nightlife-2.jpg"
+        },
+        {
+            "title": "Live Music & Jazz",
+            "intro": "For music lovers, Paris offers intimate venues where you can enjoy live jazz, blues, and contemporary performances.",
+            "list": [
+                "Le Caveau de la Huchette",
+                "Sunset Sunside Jazz Club",
+                "Le Duc des Lombards"
+            ],
+            "image": "/images/nightlife-4.jpg"
+        },
+        {
+            "title": "Rooftop Bars",
+            "intro": "Sip a drink while enjoying breathtaking views of the Paris skyline at one of the city’s popular rooftop bars.",
+            "list": [
+                "Le Perchoir",
+                "Terrass Hotel Rooftop",
+                "Le Rooftop du Montmartre"
+            ],
+            "image": "/images/nightlife-4.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Paris Nightclub Tour",
+            "description": "Get access to three of Paris’ hottest nightclubs with VIP entry and a guided tour through the city’s nightlife hotspots.",
+            "image": "/images/nightlife-1.jpg",
+            "price": "200",
+            "duration": "4 Hours"
+        },
+        {
+            "title": "Paris Rooftop Cocktail Experience",
+            "description": "Enjoy exclusive cocktails while taking in the stunning panoramic views of Paris’ iconic landmarks from a stylish rooftop bar.",
+            "image": "/images/nightlife-4.jpg",
+            "price": "150",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Jazz and Wine Night",
+            "description": "Spend an evening at one of Paris’s historic jazz clubs, where you can enjoy live performances and sample premium French wines.",
+            "image": "/images/nightlife-3.jpg",
+            "price": "180",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Champs-Élysées VIP Experience",
+            "description": "Live the Parisian nightlife dream with VIP access to exclusive clubs and lounges along the famed Champs-Élysées avenue.",
+            "image": "/images/nightlife-6.jpg",
+            "price": "250",
+            "duration": "4 Hours"
+        },
+        {
+            "title": "Paris Pub Crawl",
+            "description": "Join a fun-filled pub crawl through the best bars in Paris, meeting fellow travelers while enjoying drinks and music.",
+            "image": "/images/nightlife-2.jpg",
+            "price": "80",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Seine River Night Cruise",
+            "description": "Experience Paris from the water with a nighttime Seine River cruise, offering stunning views of the city’s lights and landmarks.",
+            "image": "/images/nightlife-5.jpg",
+            "price": "120",
+            "duration": "2 Hours"
+        }
+    ]
+}

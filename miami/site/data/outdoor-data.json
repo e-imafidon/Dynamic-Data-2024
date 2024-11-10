@@ -1,0 +1,75 @@
+{
+    "title": "Outdoor Activities in Paris",
+    "abstract": "For those who love the outdoors, Paris offers a wealth of scenic parks, lush gardens, and invigorating outdoor activities. Whether you're cruising down the Seine River, cycling through charming neighborhoods, or practicing yoga in a tranquil park, Paris provides plenty of opportunities to enjoy nature while exploring the city's beauty. From leisurely boat rides and picnics in historic parks to outdoor yoga classes and guided bike tours, the city offers a perfect blend of relaxation and adventure amidst its iconic landmarks and stunning green spaces.",
+    "services": [
+        {
+            "title": "Boat Rides",
+            "intro": "Cruise along the iconic Seine River and enjoy beautiful views of Paris.",
+            "list": ["Seine River Cruise", "Evening Champagne Boat Ride", "Guided Boat Tours"],
+            "image": "/images/outdoor-1.jpg"
+        },
+        {
+            "title": "Guided Park Walks",
+            "intro": "Take a tour through the most stunning parks in Paris, like Jardin du Luxembourg.",
+            "list": ["Jardin du Luxembourg Tour", "Tuileries Garden Stroll", "Bois de Vincennes Exploration"],
+            "image": "/images/outdoor-2.jpg"
+        },
+        {
+            "title": "Bicycle Rentals",
+            "intro": "Explore Paris at your own pace with bike rentals available throughout the city.",
+            "list": ["City Bike Rentals", "Electric Bikes", "Guided Bike Tours"],
+            "image": "/images/outdoor-3.jpg"
+        },
+        {
+            "title": "Outdoor Yoga Classes",
+            "intro": "Relax and rejuvenate with outdoor yoga sessions in picturesque locations.",
+            "list": ["Sunrise Yoga by the Seine", "Yoga at Jardin des Plantes", "Evening Yoga in Montmartre"],
+            "image": "/images/outdoor-4.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Seine Cruise Adventure",
+            "description": "Enjoy an evening boat ride on the Seine with views of the Eiffel Tower and other landmarks.",
+            "image": "/images/outdoor-1.jpg",
+            "price": "150",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Picnic in the Park",
+            "description": "Experience a catered picnic in one of Paris's famous parks.",
+            "image": "/images/outdoor-5.jpg",
+            "price": "120",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Cycling Tour",
+            "description": "Join a guided city tour by bike, perfect for sightseeing and exercise.",
+            "image": "/images/outdoor-3.jpg",
+            "price": "200",
+            "duration": "Half Day"
+        },
+        {
+            "title": "Garden Walks Package",
+            "description": "Visit and learn about the most beautiful gardens in Paris with a guided expert.",
+            "image": "/images/outdoor-6.jpg",
+            "price": "180",
+            "duration": "4 Hours"
+        },
+        {
+            "title": "Sunrise Yoga by the River",
+            "description": "Start your day with an outdoor yoga class set by the peaceful Seine River.",
+            "image": "/images/outdoor-4.jpg",
+            "price": "100",
+            "duration": "1 Hour"
+        },
+        {
+            "title": "Ferris Wheel Experience",
+            "description": "Enjoy a breathtaking ride on the famous Grande Roue de Paris, offering panoramic views of the city’s iconic landmarks such as the Eiffel Tower, Notre-Dame, and the Seine River. This package also includes a guided tour of the nearby attractions.",
+            "image": "/images/outdoor-7.jpg",
+            "price": "250",
+            "duration": "3 Hours"
+        }
+        
+    ]
+}

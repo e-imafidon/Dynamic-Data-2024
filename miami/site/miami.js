@@ -19,24 +19,51 @@ const gallery = require("./data/gallery.json")
 //process routes before error
 app.get('/',(request,response)=>{
     console.log(gallery)
+    //Import page-specific data
+    const data = require("./data/home-data.json")
     response.render('landing',{
         gallery,
-        title:"This is Miami!!",
-        abstract:"Miami is a fun place.",
-        image:"miamisky.jpg"
+        data
     })
 })
-app.get('/about',(request,response)=>{
-    response.render('page',{
-        title:"About Miami",
-        abstract:"From the Miami Marlins to the Miami Heat, there's a lot to see. "
+
+app.get('/historical',(request,response)=>{
+    console.log(gallery)
+    //Import page-specific data
+    const data = require("./data/historical-data.json")
+    response.render('landing',{
+        data,
+        gallery
+    })
+})
+
+app.get('/culinary',(request,response)=>{
+    console.log(gallery)
+    //Import page-specific data
+    const data = require("./data/culinary-data.json")
+    response.render('landing',{
+        data,
+        gallery
+    })
+})
+
+app.get('/outdoor',(request,response)=>{
+    console.log(gallery)
+    //Import page-specific data
+    const data = require("./data/outdoor-data.json")
+    response.render('landing',{
+        data,
+        gallery
     })
 })
 
 app.get('/nightlife',(request,response)=>{
-    response.render('page',{
-        title:"Miami at Night",
-        abstract:"Stay away from South Beach!!"
+    console.log(gallery)
+    //Import page-specific data
+    const data = require("./data/nightlife-data.json")
+    response.render('landing',{
+        data,
+        gallery
     })
 })
 
@@ -45,11 +72,11 @@ app.get('/nightlife',(request,response)=>{
     response.type('text/plain')
     response.send('Stay away from South Beach!! ')
 })
-*/
 app.get('/beaches',(request,response)=>{
     response.type('text/plain')
     response.send('Miami Beach and more!')
 })
+*/
 //this triggers a server error
 app.get('/history',(req,res)=>{
     response.type('text/plain')

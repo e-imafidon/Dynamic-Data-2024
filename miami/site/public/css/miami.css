@@ -1,4 +1,205 @@
-/* Target elements using class */
-.orange-bg{
-    background-color: #FF9900;
+/* General Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ECE8EF; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation Bar Styling */
+.orange-bg {
+    background-color:#8B0000; 
+    color:  #fff;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.orange-bg .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive; 
+}
+.orange-bg .navbar-brand {
+    color: white !important;
+    font-family: 'Dancing Script', cursive; 
+}
+
+.orange-bg .navbar-nav .nav-link:hover {
+    color: #E3EBFF;
+}
+
+/* Accordion for Services Section */
+.accordion-button {
+    background-color: #E7F0FF;
+    color: #4392F1; 
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+    font-family: 'Dancing Script', cursive
+}
+
+.accordion-button.collapsed {
+    background-color: #E3EBFF; 
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.accordion-body {
+    background-color: #fff; 
+    color: #333;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.accordion .accordion-body img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.accordion-item .accordion-body ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Package Section Styling */
+.owl-packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #fff; /* White background for each card */
+    border: 1px solid #E3EBFF; /* Light blue border */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 40px;
+    width: 300px; 
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #4392F1; /* Blue color for card titles */
+    font-size: 1.25em;
+    transition: color 0.3s ease; 
+}
+
+.card:hover .card-title {
+    color: #8B0000; /* Red color on hover for titles */
+}
+
+.card-text {
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.list-group-item {
+    background-color: #fff; 
+    border: none;
+    color: #333;
+}
+
+.list-group-item:hover {
+    background-color: #E7F0FF; /* Light blue hover effect */
+
+}
+
+/* Button Styling */
+.card-body .btn:hover {
+    background-color: #E3EBFF; /* Light blue on button hover */
+}
+
+/* Gallery Section Heading */
+.gallery-heading {
+    font-family: 'Dancing Script', cursive; 
+    color: #8B0000;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Gallery Grid Styling */
+.gallery {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.galleryItem {
+    margin-bottom: 20px; 
+    padding: 5px; 
+    width: calc(33.33% - 10px);
+    box-sizing: border-box; 
+}
+
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px; 
+  }
+  
+/* Ensure images are responsive, aligned, and same size */
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive Design: Adjust for smaller screens */
+@media (max-width: 768px) {
+    .galleryItem {
+        width: calc(50% - 10px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .galleryItem {
+        width: 100%;
+    }
+}
+
+/* Responsive Design: Mobile Devices */
+@media (max-width: 768px) {
+    .owl-packages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }

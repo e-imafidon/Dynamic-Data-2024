@@ -1,0 +1,90 @@
+{
+    "title": "Culinary Delights in Paris",
+    "abstract": "Paris is renowned for its gastronomic culture, offering some of the best dining experiences in the world. From traditional French bistros and Michelin-starred restaurants to local street food markets, Paris promises a culinary adventure that will tantalize your taste buds. Whether you’re taking a cooking class with an expert chef, enjoying a wine tasting, or indulging in fresh pastries, Paris is a food lover’s paradise.",
+    "services": [
+        {
+            "title": "Cooking Classes",
+            "intro": "Learn to cook authentic French dishes with the guidance of expert chefs.",
+            "list": [
+                "Baguette Making Class",
+                "French Pastry Workshop",
+                "Classic French Cuisine Cooking Class"
+            ],
+            "image": "/images/culinary-1.jpg"
+        },
+        {
+            "title": "Wine Tastings",
+            "intro": "Taste some of the finest wines from France’s renowned wine regions.",
+            "list": [
+                "Bordeaux Wine Tasting",
+                "Champagne Region Tasting",
+                "Wine Pairing Experience"
+            ],
+            "image": "/images/culinary-2.jpg"
+        },
+        {
+            "title": "Food Tours",
+            "intro": "Explore the city’s best eateries and markets while sampling iconic Parisian dishes.",
+            "list": [
+                "Classic Paris Food Tour",
+                "Cheese and Charcuterie Tour",
+                "Pastry and Chocolate Tour"
+            ],
+            "image": "/images/culinary-3.jpg"
+        },
+        {
+            "title": "Bistro Dining",
+            "intro": "Savor the flavors of Paris with a traditional meal at a local bistro.",
+            "list": [
+                "Dinner at Le Comptoir",
+                "Brunch at Café de Flore",
+                "Lunch at Le Procope"
+            ],
+            "image": "/images/culinary-4.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Paris Pastry Tour",
+            "description": "A guided tour through Paris’s best patisseries, sampling iconic French pastries like croissants, éclairs, and macarons.",
+            "image": "/images/culinary-5.jpg",
+            "price": "120",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "French Cooking Class",
+            "description": "Take part in a hands-on French cooking class where you will learn to prepare classic dishes like Coq au Vin and Crème Brûlée.",
+            "image": "/images/culinary-1.jpg",
+            "price": "200",
+            "duration": "4 Hours"
+        },
+        {
+            "title": "Bordeaux Wine Tasting",
+            "description": "Experience a premium Bordeaux wine tasting session, complete with food pairings.",
+            "image": "/images/culinary-2.jpg",
+            "price": "150",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Parisian Bistro Experience",
+            "description": "Enjoy a meal at one of Paris’s finest bistros, offering authentic French cuisine and a cozy atmosphere.",
+            "image": "/images/culinary-4.jpg",
+            "price": "100",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Market to Table Cooking Class",
+            "description": "Visit a local Parisian market to select ingredients, then return to the kitchen to cook a delicious meal using your fresh finds.",
+            "image":  "/images/culinary-1.jpg",
+            "price": "180",
+            "duration": "5 Hours"
+        },
+        {
+            "title": "Michelin-Star Dining Experience",
+            "description": "Indulge in a gourmet dining experience at one of Paris’s Michelin-starred restaurants for a luxurious culinary journey.",
+            "image": "/images/culinary-6.jpg",
+            "price": "350",
+            "duration": "3 Hours"
+        }
+    ]
+}

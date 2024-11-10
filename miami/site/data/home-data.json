@@ -1,37 +1,74 @@
 {
-    "title":"Welcome To Miami",
-    "abstract":"This is the abstract",
-    "image":"/images/miamisky.jpg",
-    "services":[
-       {
-         "title":"Transportation",
-         "intro":"You can move around Miami with these services",
-         "list":[
-            "Uber",
-            "Bus",
-            "Metro Mover"
-         ],
-         "image":"/images/homepage/transportation.jpg"
+    "title": "Welcome to Paris",
+    "abstract": "Discover the magic of Paris, the city of light, known for its history, culture, art, and romance.",
+    "services": [
+        {
+            "title": "Transportation",
+            "intro": "Get around Paris with ease using these services.",
+            "list": ["Metro", "Buses", "Taxis", "Bike Rentals"],
+            "image": "/images/home-1.jpg"
         },
         {
-            "title":"Miami Tours",
-            "intro":"You can can see more of Miami with these tours",
-            "list":[
-               "Tour 1",
-               "Tour 2",
-               "Tour 3"
-            ],
-            "image":"/images/homepage/tours.jpg"
+            "title": "City Tours",
+            "intro": "Explore Paris through guided tours.",
+            "list": ["Walking Tours", "Seine River Cruises", "Hop-on Hop-off Bus Tours", "Vintage Car Tours"],
+            "image": "/images/home-2.jpg"
+        },
+        {
+            "title": "Accommodation",
+            "intro": "Stay comfortably in Paris with these options.",
+            "list": ["Hotels", "Hostels", "Boutique Guesthouses", "Luxury Rentals"],
+            "image": "/images/home-3.jpg"
+        },
+        {
+            "title": "Dining Options",
+            "intro": "Enjoy world-class dining in Paris.",
+            "list": ["Michelin Star Restaurants", "Street Food Markets", "Bakeries", "Cafés"],
+            "image": "/images/home-4.jpg"
         }
     ],
-    "packages":[
+    "packages": [
         {
-            "title":"Beach day",
-            "description":"package description goes here. i.e spend the day at the W in miami beach",
-            "image":"/images/homepage/beachday.jpg",
-            "price":"1500",
-            "duration":"1 Day"
+            "title": "Classic Paris Tour",
+            "description": "Experience iconic landmarks like the Eiffel Tower and Notre Dame with a guide.",
+            "image": "/images/home-8.jpg",
+            "price": "250",
+            "duration": "1 Day"
         },
-        
+        {
+            "title": "Seine River Cruise",
+            "description": "Relax and see Paris from the Seine River with a guided boat tour.",
+            "image": "/images/home-2.jpg",
+            "price": "100",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Historic Landmarks Tour",
+            "description": "Explore Paris's most famous historical sites.",
+            "image": "/images/home-5.jpg",
+            "price": "350",
+            "duration": "1 Day"
+        },
+        {
+            "title": "Gourmet Dining Experience",
+            "description": "Enjoy a fine dining experience at a top Parisian restaurant.",
+            "image": "/images/home-4.jpg",
+            "price": "500",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Evening Eiffel Tower Visit",
+            "description": "Visit the Eiffel Tower at night and enjoy the light show.",
+            "image": "/images/home-6.jpg",
+            "price": "120",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Paris by Bike",
+            "description": "Explore Paris on a guided bike tour.",
+            "image": "/images/home-7.jpg",
+            "price": "80",
+            "duration": "Half Day"
+        }
     ]
 }

@@ -1,9 +1,36 @@
-{{!-- .row class is from bootstrap's grid --}}
-<div class="row gallery">
-{{!-- our image loop --}}
-{{#each gallery.images }}  
-    <div class="col-3 galleryItem">
-    <img class="img-fluid" src="{{this.url}}" alt="{{this.title}}"> 
+{{!-- Container for Both Slideshow and Gallery --}}
+<div class="container">
+
+  <!-- Bootstrap Slideshow Section -->
+  <div id="carouselGallery" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-inner">
+      {{#each gallery.images}}
+        <div class="carousel-item {{#if @first}}active{{/if}}">
+          <img src="{{this.url}}" class="d-block w-100 img-fluid" alt="{{this.title}}">
+        </div>
+      {{/each}}
     </div>
-{{/each}}     
+
+    <!-- Slideshow Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Heading for the Gallery -->
+  <h2 class="gallery-heading text-center">Gallery</h2>
+
+  <!-- Static Image Grid for the Gallery -->
+  <div class="row gallery">
+    {{#each gallery.images}}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 galleryItem">
+        <img class="img-fluid" src="{{this.url}}" alt="{{this.title}}">
+      </div>
+    {{/each}}
+  </div>
 </div>

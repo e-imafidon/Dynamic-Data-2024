@@ -1,0 +1,16 @@
+<div class="row owl-theme owl-carousel owl-packages">
+  <h2 class="gallery-heading text-center">Packages</h2>
+{{#each data.packages }}
+<div class="card" >
+  <img src="{{this.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{this.title}}</h5>
+    <p class="card-text">{{this.description}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">${{this.price}}</li>
+    <li class="list-group-item">{{this.duration}}</li>
+  </ul>
+</div>
+{{/each}}
+</div>

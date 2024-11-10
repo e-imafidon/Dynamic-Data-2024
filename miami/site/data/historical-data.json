@@ -1,0 +1,74 @@
+{
+    "title": "Historical Sites",
+    "abstract": "Explore the iconic historical landmarks of Paris and learn their stories.",
+    "services": [
+        {
+            "title": "Monument Tours",
+            "intro": "Discover the history behind Paris's most famous monuments.",
+            "list": ["Eiffel Tower Tours", "Notre Dame Cathedral Visits", "Arc de Triomphe Walks", "Pantheon Tours"],
+            "image": "/images/historical-2.jpg"
+        },
+        {
+            "title": "Heritage Walks",
+            "intro": "Enjoy walking tours through the oldest streets of Paris.",
+            "list": ["Montmartre Tours", "Le Marais Walks", "Latin Quarter Explorations", "Ile de la Cité Walks"],
+            "image": "/images/historical-3.jpg"
+        },
+        {
+            "title": "Museum Passes",
+            "intro": "Get access to multiple historical museums.",
+            "list": ["Louvre Entry", "Musée de l'Armée", "Conciergerie", "Cluny Museum"],
+            "image": "/images/historical-4.jpg"
+        },
+        {
+            "title": "Guided History Talks",
+            "intro": "Learn from expert historians during on-site discussions.",
+            "list": ["Battle of Paris Talks", "Medieval Paris Discussions", "Renaissance Paris Insights", "Revolutionary France"],
+            "image": "/images/historical-1.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Landmark Combo Pass",
+            "description": "Entry to the Eiffel Tower, Notre Dame, and more.",
+            "image": "/images/historical-2.jpg",
+            "price": "400",
+            "duration": "2 Days"
+        },
+        {
+            "title": "Notre Dame Guided Tour",
+            "description": "A detailed tour of the cathedral and its history.",
+            "image": "/images/historical-5.jpg",
+            "price": "150",
+            "duration": "3 Hours"
+        },
+        {
+            "title": "Arc de Triomphe Visit",
+            "description": "Climb the Arc and enjoy panoramic views of Paris.",
+            "image": "/images/historical-7.jpg",
+            "price": "75",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Pantheon Exploration",
+            "description": "Learn about the great French figures interred here.",
+            "image": "/images/historical-6.jpg",
+            "price": "60",
+            "duration": "2 Hours"
+        },
+        {
+            "title": "Montmartre Heritage Tour",
+            "description": "A deep dive into the bohemian neighborhood of Montmartre.",
+            "image": "/images/historical-3.jpg",
+            "price": "100",
+            "duration": "Half Day"
+        },
+        {
+            "title": "Louvre VIP Tour",
+            "description": "Experience the Louvre with a private guide.",
+            "image": "/images/historical-1.jpg",
+            "price": "300",
+            "duration": "Half Day"
+        }
+    ]
+}
