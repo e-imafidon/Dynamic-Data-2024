@@ -1,0 +1,48 @@
+[
+  {
+    "name": "HUMBERTO SERGIO MARTINEZ",
+    "address": "14217 SW 45 ST",
+    "email": "bertrph11@gmail.com",
+    "phone": "0000000003053229040",
+    "products": [
+      {
+        "id": "18",
+        "name": "Wireless Charger",
+        "description": "A compact and efficient wireless charger compatible with most devices.",
+        "price": "25.99",
+        "image": "/images/bed-6-charger.jpg"
+      }
+    ],
+    "orderDate": "2024-12-12T16:48:54.186Z"
+  },
+  {
+    "name": "HUMBERTO SERGIO MARTINEZ",
+    "address": "14217 SW 45 ST",
+    "email": "bertrph11@gmail.com",
+    "phone": "0000000003053229040",
+    "products": [
+      {
+        "id": "36",
+        "name": "Spice Set",
+        "description": "A variety pack of essential spices for flavorful cooking.",
+        "price": "29.99",
+        "image": "/images/kitchen-12-seasonings.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Soft Blanket",
+        "description": "A warm and lightweight blanket made from premium fabric for year-round comfort.",
+        "price": "39.99",
+        "image": "/images/bed-4-blanket.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Herbal Shampoo",
+        "description": "A nourishing herbal shampoo designed for shiny and healthy hair.",
+        "price": "8.99",
+        "image": "/images/bath-8-shampoo.jpg"
+      }
+    ],
+    "orderDate": "2024-12-12T18:03:54.148Z"
+  }
+]

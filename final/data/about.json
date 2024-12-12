@@ -1,0 +1,35 @@
+{
+    "title": "About Us",
+    "siteName": "Retro Haven",
+    "tagline": "Essentials for the Modern Student",
+    "aboutUs": {
+        "welcomeMessage": "Welcome to Retro Haven...",
+        "mission": "At Retro Haven, we strive to create a space..."
+    },
+    "history": "Retro Haven was founded by a group of college friends...",
+    "team": [
+        {
+            "name": "Sarah Williams",
+            "title": "Founder & CEO",
+            "bio": "A former college student who founded Retro Haven..."
+        },
+        {
+            "name": "Mark Jensen",
+            "title": "Product Curator",
+            "bio": "Mark is responsible for curating the selection of products..."
+        }
+    ],
+    "values": [
+        "Affordability: We believe that every student deserves access...",
+        "Style: Our products are designed to make your space feel..."
+    ],
+    "contact": {
+        "email": "support@retrohaven.com",
+        "phone": "+1-800-RETRO-1",
+        "address": "123 College Ave, Suite 101, Retro City"
+    },
+    "socialMedia": {
+        "instagram": "https://www.instagram.com/retrohavenstore/",
+        "twitter": "https://twitter.com/RetroHavenStore"
+    }
+}

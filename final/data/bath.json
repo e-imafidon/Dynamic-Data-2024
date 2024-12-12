@@ -1,0 +1,173 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "category": "Bath",
+        "name": "Luxury Soap Bar",
+        "description": "A handcrafted soap bar with moisturizing properties for a refreshing bath experience.",
+        "price": 5.99,
+        "image": "/images/bath-1-soap.jpg",
+        "gallery": [
+          "/images/bath-1-soap.jpg",
+          "/images/bath-1-soap.jpg",
+          "/images/bath-1-soap.jpg",
+          "/images/bath-1-soap.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Bath",
+        "name": "Assorted Bath Kit",
+        "description": "An all-in-one bath kit containing essentials like soap, loofah, and shampoo.",
+        "price": 24.99,
+        "image": "/images/bath-2-assorted kit.jpg",
+        "gallery": [
+          "/images/bath-2-assorted kit.jpg",
+          "/images/bath-2-assorted kit.jpg",
+          "/images/bath-2-assorted kit.jpg",
+          "/images/bath-2-assorted kit.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Bath",
+        "name": "Toothbrush Set",
+        "description": "A pack of three soft-bristled toothbrushes for complete oral hygiene.",
+        "price": 9.99,
+        "image": "/images/bath-3-toothbrush.jpg",
+        "gallery": [
+          "/images/bath-3-toothbrush.jpg",
+          "/images/bath-3-toothbrush.jpg",
+          "/images/bath-3-toothbrush.jpg",
+          "/images/bath-3-toothbrush.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Bath",
+        "name": "Plush Bathrobe",
+        "description": "A soft and absorbent bathrobe to keep you warm and cozy after a shower.",
+        "price": 49.99,
+        "image": "/images/bath-4-bathrobe.jpg",
+        "gallery": [
+          "/images/bath-4-bathrobe.jpg",
+          "/images/bath-4-bathrobe.jpg",
+          "/images/bath-4-bathrobe.jpg",
+          "/images/bath-4-bathrobe.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "category": "Bath",
+        "name": "Moisturizing Lotion",
+        "description": "A hydrating body lotion enriched with natural ingredients to keep your skin soft.",
+        "price": 14.99,
+        "image": "/images/bath-5-lotion.jpg",
+        "gallery": [
+          "/images/bath-5-lotion.jpg",
+          "/images/bath-5-lotion.jpg",
+          "/images/bath-5-lotion.jpg",
+          "/images/bath-5-lotion.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "category": "Bath",
+        "name": "Sleep Oil",
+        "description": "Relaxing bath oil with essential fragrances to enhance your bathing experience.",
+        "price": 12.99,
+        "image": "/images/bath-6-oil.jpg",
+        "gallery": [
+          "/images/bath-6-oil.jpg",
+          "/images/bath-6-oil.jpg",
+          "/images/bath-6-oil.jpg",
+          "/images/bath-6-oil.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "category": "Bath",
+        "name": "Mint Toothpaste",
+        "description": "Refreshing mint-flavored toothpaste for a clean and healthy smile.",
+        "price": 3.99,
+        "image": "/images/bath-7-toothpaste.jpg",
+        "gallery": [
+          "/images/bath-7-toothpaste.jpg",
+          "/images/bath-7-toothpaste.jpg",
+          "/images/bath-7-toothpaste.jpg",
+          "/images/bath-7-toothpaste.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "category": "Bath",
+        "name": "Herbal Shampoo",
+        "description": "A nourishing herbal shampoo designed for shiny and healthy hair.",
+        "price": 8.99,
+        "image": "/images/bath-8-shampoo.jpg",
+        "gallery": [
+          "/images/bath-8-shampoo.jpg",
+          "/images/bath-8-shampoo.jpg",
+          "/images/bath-8-shampoo.jpg",
+          "/images/bath-8-shampoo.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "category": "Bath",
+        "name": "Soft Towels Set",
+        "description": "A set of two ultra-soft and absorbent towels, perfect for daily use.",
+        "price": 19.99,
+        "image": "/images/bath-9-towels.jpg",
+        "gallery": [
+          "/images/bath-9-towels.jpg",
+          "/images/bath-9-towels.jpg",
+          "/images/bath-9-towels.jpg",
+          "/images/bath-9-towels.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "category": "Bath",
+        "name": "Tissue Roll Pack",
+        "description": "A 6-pack of premium-quality tissue rolls for household and personal use.",
+        "price": 7.49,
+        "image": "/images/bath-10-tissue.jpg",
+        "gallery": [
+          "/images/bath-10-tissue.jpg",
+          "/images/bath-10-tissue.jpg",
+          "/images/bath-10-tissue.jpg",
+          "/images/bath-10-tissue.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "category": "Bath",
+        "name": "Microfiber Towel",
+        "description": "A lightweight microfiber towel that dries quickly and is perfect for travel.",
+        "price": 9.49,
+        "image": "/images/bath-11-towel.jpg",
+        "gallery": [
+          "/images/bath-11-towel.jpg",
+          "/images/bath-11-towel.jpg",
+          "/images/bath-11-towel.jpg",
+          "/images/bath-11-towel.jpg"
+        ]
+      },
+      {
+        "id": 12,
+        "category": "Bath",
+        "name": "Bath Bomb Set",
+        "description": "A set of colorful and fragrant bath bombs for a spa-like experience at home.",
+        "price": 14.99,
+        "image": "/images/bath-12-bath bomb.jpg",
+        "gallery": [
+          "/images/bath-12-bath bomb.jpg",
+          "/images/bath-12-bath bomb.jpg",
+          "/images/bath-12-bath bomb.jpg",
+          "/images/bath-12-bath bomb.jpg"
+        ]
+      }
+    ]
+  }
+  

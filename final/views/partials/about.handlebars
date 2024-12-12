@@ -1,0 +1,46 @@
+{{!-- about.handlebars --}}
+
+<section class="about-section">
+    <h2>{{data.aboutUs.welcomeMessage}}</h2>
+    <p>{{data.aboutUs.mission}}</p>
+</section>
+
+<section class="history-section">
+    <h3>Our History</h3>
+    <p>{{data.history}}</p>
+</section>
+
+<section class="team-section">
+    <h3>Meet the Team</h3>
+    <div class="team-members">
+        {{#each data.team}}
+            <div class="team-member">
+                <h4>{{name}}</h4>
+                <p class="title">{{title}}</p>
+                <p>{{bio}}</p>
+            </div>
+        {{/each}}
+    </div>
+</section>
+
+<section class="values-section">
+    <h3>Our Values</h3>
+    <ul>
+        {{#each data.values}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+<section class="contact-section">
+    <h3>Contact Us</h3>
+    <p>Email: <a href="mailto:{{data.contact.email}}">{{data.contact.email}}</a></p>
+    <p>Phone: {{data.contact.phone}}</p>
+    <p>Address: {{data.contact.address}}</p>
+</section>
+
+<footer>
+    <p>Follow us on social media:</p>
+    <a href="{{data.socialMedia.instagram}}" target="_blank">Instagram</a> |
+    <a href="{{data.socialMedia.twitter}}" target="_blank">Twitter</a>
+</footer>

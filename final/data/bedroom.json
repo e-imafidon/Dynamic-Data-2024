@@ -1,0 +1,173 @@
+{
+    "products": [
+      {
+        "id": 13,
+        "category": "Bedroom",
+        "name": "Bedding Set",
+        "description": "A cozy bedding set including a comforter, bedsheet, and pillowcases, perfect for a comfortable sleep.",
+        "price": 79.99,
+        "image": "/images/bed-1-set.jpg",
+        "gallery": [
+          "/images/bed-1-set.jpg",
+          "/images/bed-1-set.jpg",
+          "/images/bed-1-set.jpg",
+          "/images/bed-1-set.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "category": "Bedroom",
+        "name": "Plush Pillows",
+        "description": "A set of two ultra-soft pillows designed for maximum comfort and support.",
+        "price": 29.99,
+        "image": "/images/bed-2-pillows.jpg",
+        "gallery": [
+          "/images/bed-2-pillows.jpg",
+          "/images/bed-2-pillows.jpg",
+          "/images/bed-2-pillows.jpg",
+          "/images/bed-2-pillows.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "category": "Bedroom",
+        "name": "Compact Sofa",
+        "description": "A stylish and space-saving sofa, ideal for dorm rooms or small bedrooms.",
+        "price": 199.99,
+        "image": "/images/bed-3-sofa.jpg",
+        "gallery": [
+          "/images/bed-3-sofa.jpg",
+          "/images/bed-3-sofa.jpg",
+          "/images/bed-3-sofa.jpg",
+          "/images/bed-3-sofa.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "category": "Bedroom",
+        "name": "Soft Blanket",
+        "description": "A warm and lightweight blanket made from premium fabric for year-round comfort.",
+        "price": 39.99,
+        "image": "/images/bed-4-blanket.jpg",
+        "gallery": [
+          "/images/bed-4-blanket.jpg",
+          "/images/bed-4-blanket.jpg",
+          "/images/bed-4-blanket.jpg",
+          "/images/bed-4-blanket.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "category": "Bedroom",
+        "name": "Ergonomic Chair",
+        "description": "An adjustable chair designed for optimal posture during study or work.",
+        "price": 89.99,
+        "image": "/images/bed-5-chair.jpg",
+        "gallery": [
+          "/images/bed-5-chair.jpg",
+          "/images/bed-5-chair.jpg",
+          "/images/bed-5-chair.jpg",
+          "/images/bed-5-chair.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "category": "Bedroom",
+        "name": "Wireless Charger",
+        "description": "A compact and efficient wireless charger compatible with most devices.",
+        "price": 25.99,
+        "image": "/images/bed-6-charger.jpg",
+        "gallery": [
+          "/images/bed-6-charger.jpg",
+          "/images/bed-6-charger.jpg",
+          "/images/bed-6-charger.jpg",
+          "/images/bed-6-charger.jpg"
+        ]
+      },
+      {
+        "id": 19,
+        "category": "Bedroom",
+        "name": "Noise-Cancelling Headphones",
+        "description": "High-quality headphones with noise-cancelling technology for uninterrupted focus.",
+        "price": 149.99,
+        "image": "/images/bed-7-headphones.jpg",
+        "gallery": [
+          "/images/bed-7-headphones.jpg",
+          "/images/bed-7-headphones.jpg",
+          "/images/bed-7-headphones.jpg",
+          "/images/bed-7-headphones.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "category": "Bedroom",
+        "name": "Blackout Curtains",
+        "description": "A pair of blackout curtains to block light and enhance privacy in your room.",
+        "price": 49.99,
+        "image": "/images/bed-8-curtain.jpg",
+        "gallery": [
+          "/images/bed-8-curtain.jpg",
+          "/images/bed-8-curtain.jpg",
+          "/images/bed-8-curtain.jpg",
+          "/images/bed-8-curtain.jpg"
+        ]
+      },
+      {
+        "id": 21,
+        "category": "Bedroom",
+        "name": "String Lights",
+        "description": "Decorative string lights to create a cozy and inviting ambiance in your room.",
+        "price": 19.99,
+        "image": "/images/bed-9-lights.jpg",
+        "gallery": [
+          "/images/bed-9-lights.jpg",
+          "/images/bed-9-lights.jpg",
+          "/images/bed-9-lights.jpg",
+          "/images/bed-9-lights.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "category": "Bedroom",
+        "name": "Reading Chair",
+        "description": "A compact and comfortable chair, ideal for reading or relaxation.",
+        "price": 109.99,
+        "image": "/images/bed-10-chair.jpg",
+        "gallery": [
+          "/images/bed-10-chair.jpg",
+          "/images/bed-10-chair.jpg",
+          "/images/bed-10-chair.jpg",
+          "/images/bed-10-chair.jpg"
+        ]
+      },
+      {
+        "id": 23,
+        "category": "Bedroom",
+        "name": "Desk Lamp",
+        "description": "An adjustable desk lamp with multiple brightness levels to suit your study needs.",
+        "price": 29.99,
+        "image": "/images/bed-11-lamp.jpg",
+        "gallery": [
+          "/images/bed-11-lamp.jpg",
+          "/images/bed-11-lamp.jpg",
+          "/images/bed-11-lamp.jpg",
+          "/images/bed-11-lamp.jpg"
+        ]
+      },
+      {
+        "id": 24,
+        "category": "Bedroom",
+        "name": "Wooden Dresser",
+        "description": "A sturdy wooden dresser with multiple drawers for organizing your essentials.",
+        "price": 149.99,
+        "image": "/images/bed-12-dresser.jpg",
+        "gallery": [
+          "/images/bed-12-dresser.jpg",
+          "/images/bed-12-dresser.jpg",
+          "/images/bed-12-dresser.jpg",
+          "/images/bed-12-dresser.jpg"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,39 @@
+<!-- Featured Products Slider -->
+<div class="featured-products-slider">
+    {{#each data.featuredProducts}}
+        <div class="product-card">
+            <img src="{{this.image}}" alt="{{this.name}}" />
+            <h3>{{this.name}}</h3>
+            <p>{{this.description}}</p>
+            <p>${{this.price}}</p>
+            <a href="/category/{{this.category}}/details/{{this.id}}">View Product</a>
+        </div>
+    {{/each}}
+</div>
+
+<!-- Featured Categories Section -->
+<div class="categories-container">
+    <!-- Bedroom & Study -->
+    <div class="category-card">
+        <img src="/images/category-bedroom.jpg" alt="Bedroom & Study" class="category-image">
+        <a href="/category/bedroom" class="category-card-link">
+            <h3 class="category-title">Bedroom &amp; Study</h3>
+        </a>
+    </div>
+
+    <!-- Kitchen -->
+    <div class="category-card">
+        <img src="/images/category-kitchen.jpg" alt="Kitchen" class="category-image">
+        <a href="/category/kitchen" class="category-card-link">
+            <h3 class="category-title">Kitchen</h3>
+        </a>
+    </div>
+
+    <!-- Bath & Personal Care -->
+    <div class="category-card">
+        <img src="/images/category-bath.jpg" alt="Bath & Personal Care" class="category-image">
+        <a href="/category/bath" class="category-card-link">
+            <h3 class="category-title">Bath &amp; Personal Care</h3>
+        </a>
+    </div>
+</div>

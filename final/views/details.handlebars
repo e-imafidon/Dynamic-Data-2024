@@ -1,0 +1,48 @@
+<div class="item-details-page">
+  <div class="main-content">
+    <div class="left-column">
+      {{!-- Main Product Image --}}
+      <div class="main-image">
+        <img src="{{product.image}}" alt="{{product.name}}">
+      </div>
+
+      {{!-- Gallery Images (4 images below the main image) --}}
+      <div class="gallery-images">
+        {{#each product.gallery}}
+          <img src="{{this}}" alt="{{../product.name}} gallery image">
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="right-column">
+      {{!-- Product Details --}}
+      <h2>{{product.name}}</h2>
+      <p class="price">${{product.price}}</p>
+      <p class="description">{{product.description}}</p>
+      
+      {{!-- Add to Cart Button --}}
+      <form action="/cart" method="GET">
+        <input type="hidden" name="id" value="{{product.id}}">
+        <input type="hidden" name="name" value="{{product.name}}">
+        <input type="hidden" name="description" value="{{product.description}}">
+        <input type="hidden" name="price" value="{{product.price}}">
+        <input type="hidden" name="image" value="{{product.image}}">
+        <button type="submit" class="add-to-cart">Add to Cart</button>
+      </form>
+    </div>
+  </div>
+
+  {{!-- Related Items Section (4 items from the same category) --}}
+  <div class="related-items">
+    <h3>More from this category</h3>
+    <div class="related-items-list">
+      {{#each relatedItems}}
+        <a href="/category/{{../categoryName}}/details/{{this.id}}" class="related-item">
+          <img src="{{this.image}}" alt="{{this.name}}">
+          <p>{{this.name}}</p>
+          <p>${{this.price}}</p>
+        </a>
+      {{/each}}
+    </div>
+  </div>
+</div>

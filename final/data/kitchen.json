@@ -1,0 +1,173 @@
+{
+    "products": [
+      {
+        "id": 25,
+        "category": "Kitchen",
+        "name": "Ceramic Teacup",
+        "description": "A durable ceramic teacup, perfect for enjoying hot beverages in style.",
+        "price": 9.99,
+        "image": "/images/kitchen-1-teacup.jpg",
+        "gallery": [
+          "/images/kitchen-1-teacup.jpg",
+          "/images/kitchen-1-teacup.jpg",
+          "/images/kitchen-1-teacup.jpg",
+          "/images/kitchen-1-teacup.jpg"
+        ]
+      },
+      {
+        "id": 26,
+        "category": "Kitchen",
+        "name": "Glass Teapot",
+        "description": "A heat-resistant glass teapot with a built-in infuser for loose-leaf tea.",
+        "price": 24.99,
+        "image": "/images/kitchen-2-teapot.jpg",
+        "gallery": [
+          "/images/kitchen-2-teapot.jpg",
+          "/images/kitchen-2-teapot.jpg",
+          "/images/kitchen-2-teapot.jpg",
+          "/images/kitchen-2-teapot.jpg"
+        ]
+      },
+      {
+        "id": 27,
+        "category": "Kitchen",
+        "name": "Non-Stick Cooking Pot",
+        "description": "A non-stick pot for easy cooking and cleaning, ideal for all types of meals.",
+        "price": 34.99,
+        "image": "/images/kitchen-3-pot.jpg",
+        "gallery": [
+          "/images/kitchen-3-pot.jpg",
+          "/images/kitchen-3-pot.jpg",
+          "/images/kitchen-3-pot.jpg",
+          "/images/kitchen-3-pot.jpg"
+        ]
+      },
+      {
+        "id": 28,
+        "category": "Kitchen",
+        "name": "High-Speed Blender",
+        "description": "A powerful blender for smoothies, sauces, and more, with multiple speed settings.",
+        "price": 59.99,
+        "image": "/images/kitchen-4-blender.jpg",
+        "gallery": [
+          "/images/kitchen-4-blender.jpg",
+          "/images/kitchen-4-blender.jpg",
+          "/images/kitchen-4-blender.jpg",
+          "/images/kitchen-4-blender.jpg"
+        ]
+      },
+      {
+        "id": 29,
+        "category": "Kitchen",
+        "name": "Cast Iron Pan",
+        "description": "A versatile cast iron pan for cooking everything from pancakes to steaks.",
+        "price": 44.99,
+        "image": "/images/kitchen-5-pan.jpg",
+        "gallery": [
+          "/images/kitchen-5-pan.jpg",
+          "/images/kitchen-5-pan.jpg",
+          "/images/kitchen-5-pan.jpg",
+          "/images/kitchen-5-pan.jpg"
+        ]
+      },
+      {
+        "id": 30,
+        "category": "Kitchen",
+        "name": "Chef's Apron",
+        "description": "A comfortable and durable apron to keep your clothes clean while cooking.",
+        "price": 14.99,
+        "image": "/images/kitchen-6-apron.jpg",
+        "gallery": [
+          "/images/kitchen-6-apron.jpg",
+          "/images/kitchen-6-apron.jpg",
+          "/images/kitchen-6-apron.jpg",
+          "/images/kitchen-6-apron.jpg"
+        ]
+      },
+      {
+        "id": 31,
+        "category": "Kitchen",
+        "name": "Dish Soap",
+        "description": "A gentle yet effective dish soap that cuts through grease with ease.",
+        "price": 4.99,
+        "image": "/images/kitchen-7-soap.jpg",
+        "gallery": [
+          "/images/kitchen-7-soap.jpg",
+          "/images/kitchen-7-soap.jpg",
+          "/images/kitchen-7-soap.jpg",
+          "/images/kitchen-7-soap.jpg"
+        ]
+      },
+      {
+        "id": 32,
+        "category": "Kitchen",
+        "name": "Oven Gloves",
+        "description": "Heat-resistant silicone gloves to safely handle hot dishes and pans.",
+        "price": 19.99,
+        "image": "/images/kitchen-8-gloves.jpg",
+        "gallery": [
+          "/images/kitchen-8-gloves.jpg",
+          "/images/kitchen-8-gloves.jpg",
+          "/images/kitchen-8-gloves.jpg",
+          "/images/kitchen-8-gloves.jpg"
+        ]
+      },
+      {
+        "id": 33,
+        "category": "Kitchen",
+        "name": "Utensils Set",
+        "description": "A complete set of stainless steel utensils, including spoons, spatulas, and more.",
+        "price": 24.99,
+        "image": "/images/kitchen-9-utensils.jpg",
+        "gallery": [
+          "/images/kitchen-9-utensils.jpg",
+          "/images/kitchen-9-utensils.jpg",
+          "/images/kitchen-9-utensils.jpg",
+          "/images/kitchen-9-utensils.jpg"
+        ]
+      },
+      {
+        "id": 34,
+        "category": "Kitchen",
+        "name": "Dinner Plates Set",
+        "description": "A set of four durable ceramic dinner plates, perfect for any meal.",
+        "price": 39.99,
+        "image": "/images/kitchen-10-plates.jpg",
+        "gallery": [
+          "/images/kitchen-10-plates.jpg",
+          "/images/kitchen-10-plates.jpg",
+          "/images/kitchen-10-plates.jpg",
+          "/images/kitchen-10-plates.jpg"
+        ]
+      },
+      {
+        "id": 35,
+        "category": "Kitchen",
+        "name": "Mixing Bowl",
+        "description": "A versatile mixing bowl, ideal for baking and meal preparation.",
+        "price": 14.99,
+        "image": "/images/kitchen-11-bowl.jpg",
+        "gallery": [
+          "/images/kitchen-11-bowl.jpg",
+          "/images/kitchen-11-bowl.jpg",
+          "/images/kitchen-11-bowl.jpg",
+          "/images/kitchen-11-bowl.jpg"
+        ]
+      },
+      {
+        "id": 36,
+        "category": "Kitchen",
+        "name": "Spice Set",
+        "description": "A variety pack of essential spices for flavorful cooking.",
+        "price": 29.99,
+        "image": "/images/kitchen-12-seasonings.jpg",
+        "gallery": [
+          "/images/kitchen-12-seasonings.jpg",
+          "/images/kitchen-12-seasonings.jpg",
+          "/images/kitchen-12-seasonings.jpg",
+          "/images/kitchen-12-seasonings.jpg"
+        ]
+      }
+    ]
+  }
+  

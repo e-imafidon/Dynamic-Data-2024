@@ -1,0 +1,39 @@
+{
+    "images": [
+        { "url":"/images/bath-2-assorted kit.jpg",
+          "title":"Image title 1"},
+
+        { "url":"/images/gallery/bath-4-bathrobe.jpg",
+          "title":"Image title 2"},
+
+        { "url":"/images/gallery/bath-8-shampoo.jpg",
+          "title":"Image title 3"},
+
+        { "url":"/images/gallery/bath-9-towels.jpg",
+          "title":"Image title 4"},
+
+        { "url":"/images/gallery/bed-1-set.jpg",
+          "title":"Image title 5"},
+
+        { "url":"/images/gallery/bed-5-chair.jpg",
+          "title":"Image title 6"},
+
+        { "url":"/images/gallery/bed-7-headphones.jpg",
+          "title":"Image title 7"},
+
+        { "url":"/images/gallery/bed-11-lamp.jpg",
+          "title":"Image title 8"},
+
+        { "url":"/images/gallery/kitchen-2-teapot.jpg",
+          "title":"Image title 9"},
+        
+        { "url":"/images/gallery/kitchen-7-soap.jpg",
+          "title":"Image title 10"},
+
+        { "url":"/images/gallery/kitchen-4-blender.jpg",
+          "title":"Image title 11"},
+
+        { "url":"/images/gallery/kitchen-6-apron.jpg",
+          "title":"Image title 12"}
+    ]
+}

@@ -1,0 +1,616 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f39c12;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* About Section */
+.about-section {
+  padding: 30px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* History Section */
+.history-section {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.history-section h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Team Section */
+.team-section {
+  padding: 30px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.team-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.team-member .title {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1rem;
+}
+
+/* Values Section */
+.values-section {
+  padding: 30px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.values-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.values-section ul {
+  list-style-type: none;
+}
+
+.values-section li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 30px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.contact-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #f39c12;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Set a fixed height for product cards and ensure content fits */
+.featured-products-slider {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  gap: 20px; /* Add space between cards */
+  padding: 20px;
+}
+
+.featured-products-slider .product-card {
+  width: 250px; /* Adjust the width of the card */
+  height: 450px; /* Fixed height to ensure consistency */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align items in the card */
+  background-color: #fff;
+  margin: 0 10px; /* Add horizontal spacing between the cards */
+  box-sizing: border-box;
+  border-radius: 10px; /* Optional: add border radius for a rounded look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add subtle shadow */
+  overflow: hidden; /* Ensure no content overflows the card */
+}
+
+/* Ensure the product name and description are styled properly */
+.featured-products-slider .product-card .product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.featured-products-slider .product-card p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1; /* Allow description to grow and take available space */
+  overflow: hidden; /* Prevent overflow of text */
+  text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+}
+
+/* Fix image size */
+.featured-products-slider .product-card img {
+  width: 100%; /* Ensure the image spans the full width of the card */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Cover ensures the image fills the container without distortion */
+  border-radius: 8px;
+}
+
+/* Add hover effect to product cards */
+.featured-products-slider .product-card:hover {
+  transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+/* View Product button styling */
+.featured-products-slider .product-card a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Ensure the button has spacing from the card's edge */
+}
+
+.featured-products-slider .product-card a:hover {
+  background-color: #444; /* Darken button on hover */
+}
+
+/* Optional: Add hover effect to links */
+.featured-products-slider .product-card a:focus {
+  outline: none;
+  box-shadow: 0 0 5px #f7a200; /* Optional: add focus effect */
+}
+
+/* Optional: Truncate long product names to prevent overflowing */
+.featured-products-slider .product-card .product-name {
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate long product names */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Customize arrows and dots for navigation */
+.slick-prev, .slick-next {
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.slick-dots li button:before {
+    color: #000;
+}
+
+/* Ensure dots are visible and styled correctly */
+.slick-dots {
+    bottom: -30px; /* Position dots below the slider */
+    display: flex;
+    justify-content: center; /* Center the dots horizontally */
+}
+
+.slick-dots li button:before {
+    color: #999; /* Make sure the dots are visible */
+    font-size: 20px; /* Increase the dot size for better visibility */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #333; /* Make the active dot darker to show which slide is currently active */
+}
+
+/* Customize arrows for better visibility */
+.slick-prev, .slick-next {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.slick-prev {
+    left: 10px; /* Adjust the left arrow position */
+}
+
+.slick-next {
+    right: 10px; /* Adjust the right arrow position */
+}
+
+/* Categories Container */
+.categories-container {
+  display: flex;
+  justify-content: space-between; /* Space out cards */
+  flex-wrap: wrap;                /* Allow cards to wrap to the next row */
+  gap: 20px;                      /* Space between cards */
+  margin-top: 40px;
+}
+
+/* Category Card */
+.category-card {
+  width: calc(33.33% - 20px); /* Three cards per row with space between */
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px; /* Add padding inside each card */
+  background-color: #fff; /* Optional: adds a background to make the cards stand out */
+  border-radius: 8px; /* Optional: rounds the corners of the card */
+  overflow: hidden; /* Prevents overflow if text is too large */
+}
+
+/* Ensure the <a> tag spans only the category title */
+.category-card a {
+  display: block;  /* Makes the link block-level */
+  text-decoration: none; /* Removes default underline from <a> tag */
+}
+
+/* Category Image */
+.category-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;  /* Ensures the image fills the card without distortion */
+  border-radius: 8px;
+  margin-bottom: 10px; /* Adds space between the image and the title */
+}
+
+/* Category Title */
+.category-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  margin-top: 10px; /* Adds some space between the image and the title */
+}
+
+/* Add hover effect for category cards */
+.category-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for interaction */
+}
+
+/* Ensure the layout is responsive for smaller screens */
+@media (max-width: 768px) {
+  .category-card {
+      width: 100%; /* Stacks cards vertically on smaller screens */
+  }
+}
+
+  
+  /* Product Grid Container */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 20px; /* Space between cards */
+    margin: 0 auto;
+    max-width: 1200px; /* Optional: Set a max-width for the grid */
+  }
+  
+  /* Product Card */
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .product-card a.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .product-card a.btn:hover {
+    background-color: #0056b3;
+  }
+
+
+/* General layout for the product details page */
+.item-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Main content section */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Make it a bit narrower to fit content */
+  }
+  
+  /* Left Column for Main Image and Gallery */
+  .left-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  /* Right Column for Product Details */
+  .right-column {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  /* Main Product Image Adjustment */
+  .main-image img {
+    width: 100%;
+    max-width: 500px; /* Limit the max width to a reasonable size */
+    height: 450px; /* Ensure the height adjusts automatically to maintain aspect ratio */
+  }
+  
+  /* Gallery Images below the main image */
+  .gallery-images img {
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  /* Product Details */
+  .right-column h2 {
+    font-size: 2rem;
+  }
+  
+  .right-column .price {
+    font-size: 1.5rem;
+    color: green;
+  }
+  
+  .right-column .description {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  /* Related Items Section */
+  .related-items {
+    margin-top: 40px;
+    width: 80%;
+  }
+  
+  .related-items h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .related-items-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between the items */
+  }
+  
+  /* Each related item should have a consistent size */
+  .related-item {
+    width: 22%; /* Ensure 4 items per row */
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .related-item:hover {
+    transform: scale(1.05); /* Add hover effect */
+  }
+  
+  /* Ensure related item images are the same size */
+  .related-item img { 
+    width: 100%;
+    max-width: 200px; /* Set a consistent width */
+    height: 200px; /* Set a consistent height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    border-radius: 8px; /* Round the corners for a cleaner look */
+  }
+  
+  /* Ensure text inside related items is aligned and styled */
+  .related-item p {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  /* Additional mobile responsiveness for related items */
+  @media (max-width: 768px) {
+    .related-items-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .related-item {
+      width: 80%; /* Adjust for smaller screens */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Cart Page Styles */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add space between items */
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start; /* Align the items vertically */
+  gap: 20px; /* Space between the image and the details */
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;  /* Stack the content vertically */
+  align-items: flex-start; /* Align the content to the left */
+  gap: 10px;               /* Add space between the details */
+}
+
+.cart-item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cart-item-description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.cart-item-price {
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Checkout Form Styles */
+.checkout-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  font-size: 1rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkout-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}

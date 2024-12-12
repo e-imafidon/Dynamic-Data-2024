@@ -1,0 +1,121 @@
+{
+    "siteName": "College Essentials Hub",
+    "tagline": "Your One-Stop Shop for Dorm and Study Needs",
+    "heroSection": {
+        "headline": "Gear Up for College Life",
+        "subheadline": "Discover a curated selection of must-have items for your dorm, kitchen, and personal care.",
+        "ctaText": "Shop Essentials",
+        "ctaLink": "/shop",
+        "backgroundImage": "/images/home-5-single.jpg"
+    },
+    "featuredCategories": [
+        {
+            "name": "Bedroom & Study",
+            "description": "Create the perfect space for relaxation and productivity.",
+            "image": "/images/bed-1-set.jpg",
+            "link": "/data/bedroom.json"
+        },
+        {
+            "name": "Kitchen",
+            "description": "Equip your kitchen with essential tools for quick and easy meals.",
+            "image": "/images/kitchen-1-teacup.jpg",
+            "link": "/data/kitchen.json"
+        },
+        {
+            "name": "Bath & Personal Care",
+            "description": "Stay fresh and organized with our bath and personal care products.",
+            "image": "/images/bath-1-soap.jpg",
+            "link": "/data/bath.json"
+        }
+    ],
+    "featuredProducts": [
+        {
+           "id": 14,
+           "category": "Bedroom",
+           "name": "Plush Pillows",
+           "description": "A set of two ultra-soft pillows designed for maximum comfort and support.",
+           "price": 29.99,
+           "image": "/images/bed-2-pillows.jpg"
+        },
+        {
+            "id": 31,
+            "category": "Kitchen",
+            "name": "Dish Soap",
+            "description": "A gentle yet effective dish soap that cuts through grease with ease.",
+            "price": 4.99,
+            "image": "/images/kitchen-7-soap.jpg"
+        },
+        {
+            "id": 4,
+            "category": "Bath",
+            "name": "Plush Bathrobe",
+            "description": "A soft and absorbent bathrobe to keep you warm and cozy after a shower.",
+            "price": 49.99,
+            "image": "/images/bath-4-bathrobe.jpg"
+        },
+        {
+            "id": 36,
+            "category": "Kitchen",
+            "name": "Spice Set",
+            "description": "A variety pack of essential spices for flavorful cooking.",
+            "price": 29.99,
+            "image": "/images/kitchen-12-seasonings.jpg"
+        },
+        {
+            "id": 6,
+            "category": "Bath",
+            "name": "Sleep Oil",
+            "description": "Relaxing bath oil with essential fragrances to enhance your bathing experience.",
+            "price": 12.99,
+            "image": "/images/bath-6-oil.jpg"
+        },
+        {
+            "id": 31,
+            "category": "Kitchen",
+            "name": "Dish Soap",
+            "description": "A gentle yet effective dish soap that cuts through grease with ease.",
+            "price": 4.99,
+            "image": "/images/kitchen-7-soap.jpg"
+        },
+        {
+            "id": 13,
+            "category": "Bedroom",
+            "name": "Bedding Set",
+            "description": "A cozy bedding set including a comforter, bedsheet, and pillowcases, perfect for a comfortable sleep.",
+            "price": 79.99,
+            "image": "/images/bed-1-set.jpg"
+        },
+        {
+            "id": 15,  
+            "category": "Bedroom",
+            "name": "Compact Sofa",
+            "description": "A stylish and space-saving sofa, ideal for dorm rooms or small bedrooms.",
+            "price": 199.99,
+            "image": "/images/bed-3-sofa.jpg"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Alex J.",
+            "text": "The Desk Organizer Set transformed my study space! Now I feel so much more productive.",
+            "avatar": "/images/home-1-guy.jpg"
+        },
+        {
+            "name": "Riley S.",
+            "text": "I love the Spice Seasonings Set! It makes my dorm cooking so much easier and tastier.",
+            "avatar": "/images/home-3-girl.jpg"
+        },
+        {
+            "name": "Joy C.",
+            "text": "The Bath Essentials Kit is a game changer. Everything I need for college life, in one place!",
+            "avatar": "/images/home-2-girl.jpg"
+        }
+    ],
+    "ctaBanner": {
+        "headline": "Ready to Ace College Life?",
+        "subheadline": "Shop everything you need for your dorm, kitchen, and personal care.",
+        "ctaText": "Browse Essentials",
+        "ctaLink": "/shop",
+        "backgroundImage": "/images/home-4-group.jpg"
+    }
+}

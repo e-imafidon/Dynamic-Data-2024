@@ -1,0 +1,14 @@
+<!-- Category Title -->
+<h2 class="category-title">{{#if data.products}} {{data.products.[0].category}} {{else}} Unknown Category {{/if}}</h2>
+
+<!-- Product Grid -->
+<div class="product-grid">
+  {{#each data.products}}
+    <div class="product-card">
+      <img src="{{this.image}}" alt="{{this.name}}" class="product-image">
+      <h3 class="product-name">{{this.name}}</h3>
+      <p class="product-price">${{this.price}}</p>
+      <a href="/category/{{this.category}}/details/{{this.id}}" class="btn">View Details</a>
+    </div>
+  {{/each}}
+</div>
